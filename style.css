@@ -1,0 +1,165 @@
+body {
+    background-color: #2e2e2e;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: hidden;
+  }
+  
+.navbar{
+    height: 35px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#f18d2f;
+}
+.logo{
+    font-size:24px;
+    color: #5b4815;
+}
+
+.cairo-play-logo{
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+ul.langs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.lang-item {
+    margin-top:-18px;
+    margin-left: 100px;
+    width:100px;
+    height: 25px;
+}
+.lang-item a{
+    color: #5b4815;
+    font-size: 24px;
+}
+.lang-item a:hover{
+    color: hsl(152, 76%, 45%)
+
+}
+.lang-item a:focus{
+    color: hsl(152, 76%, 45%)
+}
+a{
+    text-decoration: none;
+}
+
+.CodeMirror{
+    height: 480px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.left-section {
+    flex: 1;
+    height: 532px;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+ul.tab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tab-item {
+    margin-right: 10px;
+}
+
+.tab-item a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #f3b456;
+    background-color: #282a36;
+    border-right: 3px solid #f1b42f;
+    border-left: 3px solid #f1b42f;
+    border-top: 3px solid #f1b42f;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-item a.active {
+    background-color: #5b4815;
+}
+
+.tab-content {
+    border-radius: 0 5px 5px 5px;
+    background-color: #fff;
+    border: 3px solid #f1b42f;
+}
+
+textarea {
+    width: 100%;    
+    padding: 10px;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    margin-top:13px;
+}
+
+#op{
+    position: relative;
+    top:-10px ;
+    color: #f3b456;
+    font-size: 24px;
+}
+#opbtn{
+    position: relative;
+    top:-10px ;
+    color: #f3b456;
+    font-size: 24px;
+}
+#opbtn button{
+    position: relative;
+    top:-10px ;
+    color: #f3b456;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0px 3px 3px 0px;
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+#opbtn button:hover{
+    background-color: #4b4646;
+}
+iframe {
+    height: 93.5%;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+#result{
+    font-family: monospace;
+    font-size: 24px;
+    box-sizing: border-box;
+    height: 93.5%;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
